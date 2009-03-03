@@ -20,8 +20,14 @@ requires:
   Catalyst: 0
   Class::BlackHole: 0
   FirePHP::Dispatcher: 0.02
+  FirePHP::Log4perl::Appender: 0
+  FirePHP::Log4perl::Layout: 0
+  FirePHP::SimpleTable: 0
+  MRO::Compat: 0
   Scope::Guard: 0
+  Sub::Uplevel: 0
   perl: 5.8.5
+  version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01_02
+version: 0.01_03

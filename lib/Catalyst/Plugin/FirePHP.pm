@@ -6,7 +6,7 @@ use warnings;
 use 5.008005;
 
 use version;
-our $VERSION = '0.01_02';
+our $VERSION = '0.01_03';
 
 =head1 NAME
 
@@ -217,6 +217,12 @@ This might return a L<FirePHP::LogConnector::Null>
 in later versions. Right now, it defaults to
 L<FirePHP::LogConnector::Catalyst::Log> regardless
 of debug mode.
+
+=head1 BUGS
+
+Plenty, I guess. This is a pre-release version of
+B<Catalyst::Plugin::FirePHP> and hasn't seen wide-spread
+testing.
 
 =head1 SOURCE AVAILABILITY
 
